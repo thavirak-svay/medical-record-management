@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    driver-class-name: ${DB_DRIVER}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    database-platform: ${JPA_PLATFORM}
+    hibernate:
+      ddl-auto: none
+server:
+  port: 4000
